@@ -12,7 +12,7 @@
  */
 $scriptInvokedFromCli =
     isset($_SERVER['argv'][0]) && $_SERVER['argv'][0] === 'server.php';
-
+//contoh
 if($scriptInvokedFromCli) {
     $port = getenv('PORT');
     if (empty($port)) {
